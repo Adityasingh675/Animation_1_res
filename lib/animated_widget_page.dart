@@ -74,9 +74,9 @@ class RotatingTransition extends StatelessWidget {
 
 // class StethoImage extends AnimatedWidget {
 //   Animation<double> animation;
-//   StethoImage({
+//   StethoImage({Key key
 //     @required animation,
-//   }) : super(listenable: animation);
+//   }) : super(key: key, listenable: animation);
 //   @override
 //   Widget build(BuildContext context) {
 //     final animation = super.listenable as Animation<double>;
